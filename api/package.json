@@ -1,0 +1,21 @@
+{
+  "name": "longbow-api",
+  "version": "0.1.0",
+  "description": "Like arrows but better",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Cowley",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "neo4j-driver": "^4.0.1",
+    "neode": "^0.3.7",
+    "socket.io": "^2.3.0"
+  }
+}
